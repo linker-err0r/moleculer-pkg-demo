@@ -12,7 +12,7 @@
     "dc:up": "docker-compose up --build -d",
     "dc:logs": "docker-compose logs -f",
     "dc:down": "docker-compose down",
-    "bundle": "pkg . -t linux --out-path dist/"
+    "bundle": "pkg . -t linux -o dist/app"
   },
   "keywords": [
     "microservices",

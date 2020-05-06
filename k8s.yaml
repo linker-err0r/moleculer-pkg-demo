@@ -8,7 +8,6 @@ metadata:
 data:
   NAMESPACE: ""
   LOGLEVEL: info
-  SERVICEDIR: /snapshot/moleculer-pkg-demo/services
   TRANSPORTER: nats://nats:4222
   CACHER: redis://redis:6379
   MONGO_URI: mongodb://mongo/moleculer-pkg-demo
