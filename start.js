@@ -3,6 +3,10 @@ const Runner = require("moleculer").Runner;
 
 const runner = new Runner();
 
+if (process.env.NODE_ENV == "production") {
+	process.env.SERVICEDIR = "/snapshot/moleculer-pkg-demo/services";
+}
+
 runner.start([
 	process.argv[0],
 	__filename,
